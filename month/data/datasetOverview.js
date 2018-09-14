@@ -4,11 +4,12 @@ var datasetOverview = {
     "gerrit_month"
   ],
   "branchList": [
-    "master"
+    "master",
+    "v0.24.x"
   ],
-  "fromDate": 1533755479000,
-  "toDate": 1536366483000,
-  "generatedDate": 1536370743350,
+  "fromDate": 1534778236000,
+  "toDate": 1536940196000,
+  "generatedDate": 1536940349756,
   "hashCode": "-505371009",
   "gerritVersion": {
     "major": 2,

@@ -4363,217 +4363,6 @@ userdata['cl778h'] = {
       "commit": {
         "project": "releng/global-jjb",
         "branch": "master",
-        "id": "Id13aee7244cce6328fd10cbe495b5fb3e7069924",
-        "commitNumber": 9720,
-        "subject": "Pin tox to \u003c3.0.0 as it breaks detox",
-        "owner": ids["jeremyphelps"],
-        "url": "https://gerrit.linuxfoundation.org/infra/9720",
-        "commitMessage": "Pin tox to \u003c3.0.0 as it breaks detox\n\nIssue-ID: RELENG-856\nChange-Id: Id13aee7244cce6328fd10cbe495b5fb3e7069924\nSigned-off-by: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e\n",
-        "createdOnDate": 1522762911000,
-        "lastUpdatedDate": 1522765701000,
-        "isOpen": false,
-        "status": "MERGED",
-        "reviewers": [
-          ids["zxiiro"],
-          ids["jeremyphelps"],
-          ids["lf-jenkins"],
-          ids["cl778h"]
-        ],
-        "comments": [
-          {
-            "timestamp": 1522762911000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Uploaded patch set 1."
-          },
-          {
-            "timestamp": 1522762958000,
-            "reviewer": ids["zxiiro"],
-            "message": "Patch Set 1: Code-Review+2"
-          },
-          {
-            "timestamp": 1522763157000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/"
-          },
-          {
-            "timestamp": 1522763301000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/312"
-          },
-          {
-            "timestamp": 1522763664000,
-            "reviewer": ids["cl778h"],
-            "message": "Patch Set 1: Code-Review+1\n\n(1 comment)"
-          },
-          {
-            "timestamp": 1522763847000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 1:\n\nrecheck"
-          },
-          {
-            "timestamp": 1522763897000,
-            "reviewer": ids["cl778h"],
-            "message": "Patch Set 1:\n\nThis fails with the same proclimit-not-found error as everywhere else.  Suspect you\u0027ll have to +1 verify manually.  :/"
-          },
-          {
-            "timestamp": 1522763965000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 1:\n\n\u003e (1 comment)\n\nAgreed, we will look at those next."
-          },
-          {
-            "timestamp": 1522763991000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 1:\n\n\u003e This fails with the same proclimit-not-found error as everywhere\n \u003e else.  Suspect you\u0027ll have to +1 verify manually.  :/\n\nI updated the verify job, our gerrit does not allow an override."
-          },
-          {
-            "timestamp": 1522764035000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/313/"
-          },
-          {
-            "timestamp": 1522764260000,
-            "reviewer": ids["cl778h"],
-            "message": "Patch Set 1: Code-Review-1\n\nSuggest adding this to commit message:\n\nIssue-ID: RELENG-856"
-          },
-          {
-            "timestamp": 1522764331000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/313/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/313"
-          },
-          {
-            "timestamp": 1522764440000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Uploaded patch set 2: Commit message was updated."
-          },
-          {
-            "timestamp": 1522764454000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 2:\n\n\u003e Suggest adding this to commit message:\n \u003e \n \u003e Issue-ID: RELENG-856\n\nDone"
-          },
-          {
-            "timestamp": 1522764690000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/314/"
-          },
-          {
-            "timestamp": 1522765124000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/314/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/314"
-          },
-          {
-            "timestamp": 1522765691000,
-            "reviewer": ids["zxiiro"],
-            "message": "Patch Set 2: Code-Review+2"
-          },
-          {
-            "timestamp": 1522765701000,
-            "reviewer": ids["zxiiro"],
-            "message": "Change has been successfully merged by Thanh Ha"
-          }
-        ],
-        "patchSets": [
-          {
-            "number": 1,
-            "revision": "388edb2d36117dabcb4b02f11e54b727731f361b",
-            "parents": [
-              "2fd4ef3727651924618efac74b88e104c858ead2"
-            ],
-            "ref": "refs/changes/20/9720/1",
-            "uploader": ids["jeremyphelps"],
-            "createdOnDate": 1522762911000,
-            "author": ids["jeremyphelps"],
-            "isDraft": false,
-            "kind": "REWORK",
-            "approvals": [
-              {
-                "type": "Code-Review",
-                "description": "Code-Review",
-                "value": 2,
-                "grantedOnDate": 1522762958000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "Verified",
-                "description": "Verified",
-                "value": 1,
-                "grantedOnDate": 1522764331000,
-                "grantedBy": ids["lf-jenkins"]
-              },
-              {
-                "type": "Code-Review",
-                "description": "Code-Review",
-                "value": -1,
-                "grantedOnDate": 1522764260000,
-                "grantedBy": ids["cl778h"]
-              }
-            ],
-            "comments": [
-              {
-                "file": "shell/tox-install.sh",
-                "line": 22,
-                "reviewer": ids["cl778h"],
-                "message": "Perhaps it would be wise to pin all the tools here, not just tox?  Anyone can break us anytime.",
-                "patchSetTimestamp": 1522762911000
-              }
-            ],
-            "sizeInsertions": 1,
-            "sizeDeletions": -1
-          },
-          {
-            "number": 2,
-            "revision": "edf56a1e9ce91d936388621ecfc850162aabfebd",
-            "parents": [
-              "2fd4ef3727651924618efac74b88e104c858ead2"
-            ],
-            "ref": "refs/changes/20/9720/2",
-            "uploader": ids["jeremyphelps"],
-            "createdOnDate": 1522764440000,
-            "author": ids["jeremyphelps"],
-            "isDraft": false,
-            "kind": "NO_CODE_CHANGE",
-            "approvals": [
-              {
-                "type": "Code-Review",
-                "description": "Code-Review",
-                "value": 2,
-                "grantedOnDate": 1522765691000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "SUBM",
-                "description": "",
-                "value": 1,
-                "grantedOnDate": 1522765701000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "Verified",
-                "description": "Verified",
-                "value": 1,
-                "grantedOnDate": 1522765124000,
-                "grantedBy": ids["lf-jenkins"]
-              }
-            ],
-            "comments": [],
-            "sizeInsertions": 1,
-            "sizeDeletions": -1
-          }
-        ]
-      },
-      "commentsByUser": [
-        {
-          "file": "shell/tox-install.sh",
-          "line": 22,
-          "reviewer": ids["cl778h"],
-          "message": "Perhaps it would be wise to pin all the tools here, not just tox?  Anyone can break us anytime.",
-          "patchSetTimestamp": 1522762911000
-        }
-      ]
-    },
-    {
-      "commit": {
-        "project": "releng/global-jjb",
-        "branch": "master",
         "id": "Idad3078942618b7d8fd08a40bf9e4e5ed5a0dc48",
         "commitNumber": 8429,
         "subject": "Add script to manage Jenkins cloud cfg",
@@ -5332,71 +5121,115 @@ userdata['cl778h'] = {
           "patchSetTimestamp": 1520029106000
         }
       ]
-    }
-  ],
-  "commentsReceived": [
+    },
     {
       "commit": {
         "project": "releng/global-jjb",
         "branch": "master",
-        "id": "Ia09f3194407f6c94d8cb1adfbb4d32e9a4592ff6",
-        "commitNumber": 9109,
-        "subject": "Make rtd jobs verbose",
-        "owner": ids["cl778h"],
-        "url": "https://gerrit.linuxfoundation.org/infra/9109",
-        "commitMessage": "Make rtd jobs verbose\n\nAdd set -x flag so these scripts echo steps in Jenkins output.\n\nChange-Id: Ia09f3194407f6c94d8cb1adfbb4d32e9a4592ff6\nSigned-off-by: Lott, Christopher (cl778h) \u003ccl778h@att.com\u003e\n",
-        "createdOnDate": 1519915269000,
-        "lastUpdatedDate": 1519921072000,
+        "id": "Id13aee7244cce6328fd10cbe495b5fb3e7069924",
+        "commitNumber": 9720,
+        "subject": "Pin tox to \u003c3.0.0 as it breaks detox",
+        "owner": ids["jeremyphelps"],
+        "url": "https://gerrit.linuxfoundation.org/infra/9720",
+        "commitMessage": "Pin tox to \u003c3.0.0 as it breaks detox\n\nIssue-ID: RELENG-856\nChange-Id: Id13aee7244cce6328fd10cbe495b5fb3e7069924\nSigned-off-by: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e\n",
+        "createdOnDate": 1522762911000,
+        "lastUpdatedDate": 1522765701000,
         "isOpen": false,
         "status": "MERGED",
         "reviewers": [
-          ids["agrimberg"],
           ids["zxiiro"],
-          ids["lf-jenkins"]
+          ids["jeremyphelps"],
+          ids["lf-jenkins"],
+          ids["cl778h"]
         ],
         "comments": [
           {
-            "timestamp": 1519915269000,
-            "reviewer": ids["cl778h"],
+            "timestamp": 1522762911000,
+            "reviewer": ids["jeremyphelps"],
             "message": "Uploaded patch set 1."
           },
           {
-            "timestamp": 1519915478000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/257/"
-          },
-          {
-            "timestamp": 1519915656000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/257/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/257"
-          },
-          {
-            "timestamp": 1519919884000,
+            "timestamp": 1522762958000,
             "reviewer": ids["zxiiro"],
-            "message": "Patch Set 1: Code-Review+2\n\n(2 comments)\n\nShould fix the comment but can be done in another patch. I\u0027m good with this."
+            "message": "Patch Set 1: Code-Review+2"
           },
           {
-            "timestamp": 1519920380000,
+            "timestamp": 1522763157000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/"
+          },
+          {
+            "timestamp": 1522763301000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/312/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/312"
+          },
+          {
+            "timestamp": 1522763664000,
             "reviewer": ids["cl778h"],
-            "message": "Uploaded patch set 2."
+            "message": "Patch Set 1: Code-Review+1\n\n(1 comment)"
           },
           {
-            "timestamp": 1519920613000,
+            "timestamp": 1522763847000,
+            "reviewer": ids["jeremyphelps"],
+            "message": "Patch Set 1:\n\nrecheck"
+          },
+          {
+            "timestamp": 1522763897000,
+            "reviewer": ids["cl778h"],
+            "message": "Patch Set 1:\n\nThis fails with the same proclimit-not-found error as everywhere else.  Suspect you\u0027ll have to +1 verify manually.  :/"
+          },
+          {
+            "timestamp": 1522763965000,
+            "reviewer": ids["jeremyphelps"],
+            "message": "Patch Set 1:\n\n\u003e (1 comment)\n\nAgreed, we will look at those next."
+          },
+          {
+            "timestamp": 1522763991000,
+            "reviewer": ids["jeremyphelps"],
+            "message": "Patch Set 1:\n\n\u003e This fails with the same proclimit-not-found error as everywhere\n \u003e else.  Suspect you\u0027ll have to +1 verify manually.  :/\n\nI updated the verify job, our gerrit does not allow an override."
+          },
+          {
+            "timestamp": 1522764035000,
             "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/258/"
+            "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/313/"
           },
           {
-            "timestamp": 1519920788000,
+            "timestamp": 1522764260000,
+            "reviewer": ids["cl778h"],
+            "message": "Patch Set 1: Code-Review-1\n\nSuggest adding this to commit message:\n\nIssue-ID: RELENG-856"
+          },
+          {
+            "timestamp": 1522764331000,
             "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/258/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/258"
+            "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/313/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/313"
           },
           {
-            "timestamp": 1519921045000,
+            "timestamp": 1522764440000,
+            "reviewer": ids["jeremyphelps"],
+            "message": "Uploaded patch set 2: Commit message was updated."
+          },
+          {
+            "timestamp": 1522764454000,
+            "reviewer": ids["jeremyphelps"],
+            "message": "Patch Set 2:\n\n\u003e Suggest adding this to commit message:\n \u003e \n \u003e Issue-ID: RELENG-856\n\nDone"
+          },
+          {
+            "timestamp": 1522764690000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/314/"
+          },
+          {
+            "timestamp": 1522765124000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/314/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/314"
+          },
+          {
+            "timestamp": 1522765691000,
             "reviewer": ids["zxiiro"],
             "message": "Patch Set 2: Code-Review+2"
           },
           {
-            "timestamp": 1519921072000,
+            "timestamp": 1522765701000,
             "reviewer": ids["zxiiro"],
             "message": "Change has been successfully merged by Thanh Ha"
           }
@@ -5404,14 +5237,14 @@ userdata['cl778h'] = {
         "patchSets": [
           {
             "number": 1,
-            "revision": "f35954d711199ac63bfa4d70591074f3d07f715b",
+            "revision": "388edb2d36117dabcb4b02f11e54b727731f361b",
             "parents": [
-              "0116521b32584814cbd2ad9f1dd84bfbe4fd381b"
+              "2fd4ef3727651924618efac74b88e104c858ead2"
             ],
-            "ref": "refs/changes/09/9109/1",
-            "uploader": ids["cl778h"],
-            "createdOnDate": 1519915269000,
-            "author": ids["cl778h"],
+            "ref": "refs/changes/20/9720/1",
+            "uploader": ids["jeremyphelps"],
+            "createdOnDate": 1522762911000,
+            "author": ids["jeremyphelps"],
             "isDraft": false,
             "kind": "REWORK",
             "approvals": [
@@ -5419,94 +5252,89 @@ userdata['cl778h'] = {
                 "type": "Code-Review",
                 "description": "Code-Review",
                 "value": 2,
-                "grantedOnDate": 1519919884000,
+                "grantedOnDate": 1522762958000,
                 "grantedBy": ids["zxiiro"]
               },
               {
                 "type": "Verified",
                 "description": "Verified",
                 "value": 1,
-                "grantedOnDate": 1519915656000,
+                "grantedOnDate": 1522764331000,
                 "grantedBy": ids["lf-jenkins"]
+              },
+              {
+                "type": "Code-Review",
+                "description": "Code-Review",
+                "value": -1,
+                "grantedOnDate": 1522764260000,
+                "grantedBy": ids["cl778h"]
               }
             ],
             "comments": [
               {
-                "file": "shell/rtd-trigger-build.sh",
-                "line": 14,
-                "reviewer": ids["zxiiro"],
-                "message": "There\u0027s nothing virtualenv in this script although it does need to ignore -u to access GERRIT_BRANCH properly.",
-                "patchSetTimestamp": 1519915269000
-              },
-              {
-                "file": "shell/rtd-verify.sh",
-                "line": 14,
-                "reviewer": ids["zxiiro"],
-                "message": "Realized this comment a little wrong too as there\u0027s nothing virtualenv here but it does need it for GERRIT_* parameters.",
-                "patchSetTimestamp": 1519915269000
+                "file": "shell/tox-install.sh",
+                "line": 22,
+                "reviewer": ids["cl778h"],
+                "message": "Perhaps it would be wise to pin all the tools here, not just tox?  Anyone can break us anytime.",
+                "patchSetTimestamp": 1522762911000
               }
             ],
-            "sizeInsertions": 5,
+            "sizeInsertions": 1,
             "sizeDeletions": -1
           },
           {
             "number": 2,
-            "revision": "338c1a22f1e7eccd2224b1d9bc72cdd7ae55ebff",
+            "revision": "edf56a1e9ce91d936388621ecfc850162aabfebd",
             "parents": [
-              "0116521b32584814cbd2ad9f1dd84bfbe4fd381b"
+              "2fd4ef3727651924618efac74b88e104c858ead2"
             ],
-            "ref": "refs/changes/09/9109/2",
-            "uploader": ids["cl778h"],
-            "createdOnDate": 1519920380000,
-            "author": ids["cl778h"],
+            "ref": "refs/changes/20/9720/2",
+            "uploader": ids["jeremyphelps"],
+            "createdOnDate": 1522764440000,
+            "author": ids["jeremyphelps"],
             "isDraft": false,
-            "kind": "REWORK",
+            "kind": "NO_CODE_CHANGE",
             "approvals": [
               {
                 "type": "Code-Review",
                 "description": "Code-Review",
                 "value": 2,
-                "grantedOnDate": 1519921045000,
+                "grantedOnDate": 1522765691000,
                 "grantedBy": ids["zxiiro"]
               },
               {
                 "type": "SUBM",
                 "description": "",
                 "value": 1,
-                "grantedOnDate": 1519921072000,
+                "grantedOnDate": 1522765701000,
                 "grantedBy": ids["zxiiro"]
               },
               {
                 "type": "Verified",
                 "description": "Verified",
                 "value": 1,
-                "grantedOnDate": 1519920788000,
+                "grantedOnDate": 1522765124000,
                 "grantedBy": ids["lf-jenkins"]
               }
             ],
             "comments": [],
-            "sizeInsertions": 6,
-            "sizeDeletions": -2
+            "sizeInsertions": 1,
+            "sizeDeletions": -1
           }
         ]
       },
       "commentsByUser": [
         {
-          "file": "shell/rtd-trigger-build.sh",
-          "line": 14,
-          "reviewer": ids["zxiiro"],
-          "message": "There\u0027s nothing virtualenv in this script although it does need to ignore -u to access GERRIT_BRANCH properly.",
-          "patchSetTimestamp": 1519915269000
-        },
-        {
-          "file": "shell/rtd-verify.sh",
-          "line": 14,
-          "reviewer": ids["zxiiro"],
-          "message": "Realized this comment a little wrong too as there\u0027s nothing virtualenv here but it does need it for GERRIT_* parameters.",
-          "patchSetTimestamp": 1519915269000
+          "file": "shell/tox-install.sh",
+          "line": 22,
+          "reviewer": ids["cl778h"],
+          "message": "Perhaps it would be wise to pin all the tools here, not just tox?  Anyone can break us anytime.",
+          "patchSetTimestamp": 1522762911000
         }
       ]
-    },
+    }
+  ],
+  "commentsReceived": [
     {
       "commit": {
         "project": "releng/global-jjb",
@@ -5814,6 +5642,178 @@ userdata['cl778h'] = {
           "reviewer": ids["zxiiro"],
           "message": "ah I missed that this one was the sonar job. Yes in this case the code here is fine. For the other templates please default to a blank cron job.\n\nThanks for catching this!",
           "patchSetTimestamp": 1517248426000
+        }
+      ]
+    },
+    {
+      "commit": {
+        "project": "releng/global-jjb",
+        "branch": "master",
+        "id": "Ia09f3194407f6c94d8cb1adfbb4d32e9a4592ff6",
+        "commitNumber": 9109,
+        "subject": "Make rtd jobs verbose",
+        "owner": ids["cl778h"],
+        "url": "https://gerrit.linuxfoundation.org/infra/9109",
+        "commitMessage": "Make rtd jobs verbose\n\nAdd set -x flag so these scripts echo steps in Jenkins output.\n\nChange-Id: Ia09f3194407f6c94d8cb1adfbb4d32e9a4592ff6\nSigned-off-by: Lott, Christopher (cl778h) \u003ccl778h@att.com\u003e\n",
+        "createdOnDate": 1519915269000,
+        "lastUpdatedDate": 1519921072000,
+        "isOpen": false,
+        "status": "MERGED",
+        "reviewers": [
+          ids["agrimberg"],
+          ids["zxiiro"],
+          ids["lf-jenkins"]
+        ],
+        "comments": [
+          {
+            "timestamp": 1519915269000,
+            "reviewer": ids["cl778h"],
+            "message": "Uploaded patch set 1."
+          },
+          {
+            "timestamp": 1519915478000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/257/"
+          },
+          {
+            "timestamp": 1519915656000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/257/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/257"
+          },
+          {
+            "timestamp": 1519919884000,
+            "reviewer": ids["zxiiro"],
+            "message": "Patch Set 1: Code-Review+2\n\n(2 comments)\n\nShould fix the comment but can be done in another patch. I\u0027m good with this."
+          },
+          {
+            "timestamp": 1519920380000,
+            "reviewer": ids["cl778h"],
+            "message": "Uploaded patch set 2."
+          },
+          {
+            "timestamp": 1519920613000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/258/"
+          },
+          {
+            "timestamp": 1519920788000,
+            "reviewer": ids["lf-jenkins"],
+            "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/258/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/258"
+          },
+          {
+            "timestamp": 1519921045000,
+            "reviewer": ids["zxiiro"],
+            "message": "Patch Set 2: Code-Review+2"
+          },
+          {
+            "timestamp": 1519921072000,
+            "reviewer": ids["zxiiro"],
+            "message": "Change has been successfully merged by Thanh Ha"
+          }
+        ],
+        "patchSets": [
+          {
+            "number": 1,
+            "revision": "f35954d711199ac63bfa4d70591074f3d07f715b",
+            "parents": [
+              "0116521b32584814cbd2ad9f1dd84bfbe4fd381b"
+            ],
+            "ref": "refs/changes/09/9109/1",
+            "uploader": ids["cl778h"],
+            "createdOnDate": 1519915269000,
+            "author": ids["cl778h"],
+            "isDraft": false,
+            "kind": "REWORK",
+            "approvals": [
+              {
+                "type": "Code-Review",
+                "description": "Code-Review",
+                "value": 2,
+                "grantedOnDate": 1519919884000,
+                "grantedBy": ids["zxiiro"]
+              },
+              {
+                "type": "Verified",
+                "description": "Verified",
+                "value": 1,
+                "grantedOnDate": 1519915656000,
+                "grantedBy": ids["lf-jenkins"]
+              }
+            ],
+            "comments": [
+              {
+                "file": "shell/rtd-trigger-build.sh",
+                "line": 14,
+                "reviewer": ids["zxiiro"],
+                "message": "There\u0027s nothing virtualenv in this script although it does need to ignore -u to access GERRIT_BRANCH properly.",
+                "patchSetTimestamp": 1519915269000
+              },
+              {
+                "file": "shell/rtd-verify.sh",
+                "line": 14,
+                "reviewer": ids["zxiiro"],
+                "message": "Realized this comment a little wrong too as there\u0027s nothing virtualenv here but it does need it for GERRIT_* parameters.",
+                "patchSetTimestamp": 1519915269000
+              }
+            ],
+            "sizeInsertions": 5,
+            "sizeDeletions": -1
+          },
+          {
+            "number": 2,
+            "revision": "338c1a22f1e7eccd2224b1d9bc72cdd7ae55ebff",
+            "parents": [
+              "0116521b32584814cbd2ad9f1dd84bfbe4fd381b"
+            ],
+            "ref": "refs/changes/09/9109/2",
+            "uploader": ids["cl778h"],
+            "createdOnDate": 1519920380000,
+            "author": ids["cl778h"],
+            "isDraft": false,
+            "kind": "REWORK",
+            "approvals": [
+              {
+                "type": "Code-Review",
+                "description": "Code-Review",
+                "value": 2,
+                "grantedOnDate": 1519921045000,
+                "grantedBy": ids["zxiiro"]
+              },
+              {
+                "type": "SUBM",
+                "description": "",
+                "value": 1,
+                "grantedOnDate": 1519921072000,
+                "grantedBy": ids["zxiiro"]
+              },
+              {
+                "type": "Verified",
+                "description": "Verified",
+                "value": 1,
+                "grantedOnDate": 1519920788000,
+                "grantedBy": ids["lf-jenkins"]
+              }
+            ],
+            "comments": [],
+            "sizeInsertions": 6,
+            "sizeDeletions": -2
+          }
+        ]
+      },
+      "commentsByUser": [
+        {
+          "file": "shell/rtd-trigger-build.sh",
+          "line": 14,
+          "reviewer": ids["zxiiro"],
+          "message": "There\u0027s nothing virtualenv in this script although it does need to ignore -u to access GERRIT_BRANCH properly.",
+          "patchSetTimestamp": 1519915269000
+        },
+        {
+          "file": "shell/rtd-verify.sh",
+          "line": 14,
+          "reviewer": ids["zxiiro"],
+          "message": "Realized this comment a little wrong too as there\u0027s nothing virtualenv here but it does need it for GERRIT_* parameters.",
+          "patchSetTimestamp": 1519915269000
         }
       ]
     }

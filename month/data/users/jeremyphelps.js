@@ -1,12 +1,12 @@
 userdata['jeremyphelps'] = {
   "identity": ids["jeremyphelps"],
   "reviewCountPlus2": 10,
-  "reviewCountPlus1": 8,
+  "reviewCountPlus1": 5,
   "reviewCountMinus1": 0,
   "reviewCountMinus2": 0,
-  "firstActiveDate": 1523481016000,
-  "lastActiveDate": 1535129069000,
-  "activeDayCount": 7,
+  "firstActiveDate": 1534472821000,
+  "lastActiveDate": 1536873405000,
+  "activeDayCount": 6,
   "commits": [
     {
       "project": "releng/global-jjb",
@@ -91,276 +91,6 @@ userdata['jeremyphelps'] = {
           "comments": [],
           "sizeInsertions": 4,
           "sizeDeletions": 0
-        }
-      ]
-    },
-    {
-      "project": "releng/global-jjb",
-      "branch": "master",
-      "id": "I5d67b8a70a4b2d5dc5e7c4028ba62c21cd7a7d1e",
-      "commitNumber": 12180,
-      "subject": "Make GHPRB trigger on comment only",
-      "owner": ids["jeremyphelps"],
-      "url": "https://gerrit.linuxfoundation.org/infra/12180",
-      "commitMessage": "Make GHPRB trigger on comment only\n\nIssue: RELENG-1132\nChange-Id: I5d67b8a70a4b2d5dc5e7c4028ba62c21cd7a7d1e\nSigned-off-by: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e\n",
-      "createdOnDate": 1533839199000,
-      "lastUpdatedDate": 1533858628000,
-      "isOpen": false,
-      "status": "MERGED",
-      "reviewers": [
-        ids["agrimberg"],
-        ids["zxiiro"],
-        ids["jeremyphelps"],
-        ids["lf-jenkins"]
-      ],
-      "comments": [
-        {
-          "timestamp": 1533839199000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Uploaded patch set 1."
-        },
-        {
-          "timestamp": 1533839283000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/692/"
-        },
-        {
-          "timestamp": 1533839461000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/692/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/692"
-        },
-        {
-          "timestamp": 1533839725000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1: Code-Review-1\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1533858092000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 1:\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1533858141000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1:\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1533858177000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 1:\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1533858357000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Uploaded patch set 2."
-        },
-        {
-          "timestamp": 1533858372000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 2: Code-Review+2"
-        },
-        {
-          "timestamp": 1533858436000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/694/"
-        },
-        {
-          "timestamp": 1533858605000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/694/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/694"
-        },
-        {
-          "timestamp": 1533858628000,
-          "reviewer": ids["zxiiro"],
-          "message": "Change has been successfully merged by Thanh Ha (zxiiro)"
-        }
-      ],
-      "patchSets": [
-        {
-          "number": 1,
-          "revision": "1ad13a6c96d4b82b74d194621055fa9ee371f56b",
-          "parents": [
-            "3ae312fbcced7c547bbe98a5692a6d2dcfc17558"
-          ],
-          "ref": "refs/changes/80/12180/1",
-          "uploader": ids["jeremyphelps"],
-          "createdOnDate": 1533839199000,
-          "author": ids["jeremyphelps"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": -1,
-              "grantedOnDate": 1533839725000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533839461000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 291,
-              "reviewer": ids["zxiiro"],
-              "message": "Maybe we just need to change this to \"true\".\n\nThere\u0027s a bunch of other cases where we also allow trigger phrase builds too.",
-              "patchSetTimestamp": 1533839199000
-            },
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 291,
-              "reviewer": ids["jeremyphelps"],
-              "message": "Hmm that\u0027s not a bad idea, although for this particular job, will a committer ever need to run CLM?",
-              "patchSetTimestamp": 1533839199000
-            },
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 291,
-              "reviewer": ids["zxiiro"],
-              "message": "Yes, OpenDaylight committers often run it manually around release time.",
-              "patchSetTimestamp": 1533839199000
-            },
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 291,
-              "reviewer": ids["jeremyphelps"],
-              "message": "got it..fix inbound",
-              "patchSetTimestamp": 1533839199000
-            }
-          ],
-          "sizeInsertions": 0,
-          "sizeDeletions": -12
-        },
-        {
-          "number": 2,
-          "revision": "9643e91a8afa968c8b9efdcdca04fe8b356fd4e3",
-          "parents": [
-            "3ae312fbcced7c547bbe98a5692a6d2dcfc17558"
-          ],
-          "ref": "refs/changes/80/12180/2",
-          "uploader": ids["jeremyphelps"],
-          "createdOnDate": 1533858357000,
-          "author": ids["jeremyphelps"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533858372000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "SUBM",
-              "description": "",
-              "value": 1,
-              "grantedOnDate": 1533858628000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533858605000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 1,
-          "sizeDeletions": -1
-        }
-      ]
-    },
-    {
-      "project": "releng/global-jjb",
-      "branch": "master",
-      "id": "Idd342b85a0306cfedb63215f4a6442ced74c94e4",
-      "commitNumber": 12157,
-      "subject": "Upgrade minimal jjb version to 2.2.1",
-      "owner": ids["jeremyphelps"],
-      "url": "https://gerrit.linuxfoundation.org/infra/12157",
-      "commitMessage": "Upgrade minimal jjb version to 2.2.1\n\nIssue: RELENG-1129\nChange-Id: Idd342b85a0306cfedb63215f4a6442ced74c94e4\nSigned-off-by: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e\n",
-      "createdOnDate": 1533750146000,
-      "lastUpdatedDate": 1533755479000,
-      "isOpen": false,
-      "status": "MERGED",
-      "reviewers": [
-        ids["zxiiro"],
-        ids["lf-jenkins"]
-      ],
-      "comments": [
-        {
-          "timestamp": 1533750146000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Uploaded patch set 1."
-        },
-        {
-          "timestamp": 1533750393000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/690/"
-        },
-        {
-          "timestamp": 1533750599000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/690/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/690"
-        },
-        {
-          "timestamp": 1533755477000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1: Code-Review+2"
-        },
-        {
-          "timestamp": 1533755479000,
-          "reviewer": ids["zxiiro"],
-          "message": "Change has been successfully merged by Thanh Ha (zxiiro)"
-        }
-      ],
-      "patchSets": [
-        {
-          "number": 1,
-          "revision": "3ae312fbcced7c547bbe98a5692a6d2dcfc17558",
-          "parents": [
-            "8a5ed774fd2f4109ff9fe6da4359263dc3a1ab29"
-          ],
-          "ref": "refs/changes/57/12157/1",
-          "uploader": ids["jeremyphelps"],
-          "createdOnDate": 1533750146000,
-          "author": ids["jeremyphelps"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533755477000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "SUBM",
-              "description": "",
-              "value": 1,
-              "grantedOnDate": 1533755479000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533750599000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 1,
-          "sizeDeletions": -1
         }
       ]
     }
@@ -999,6 +729,551 @@ userdata['jeremyphelps'] = {
           "comments": [],
           "sizeInsertions": 11,
           "sizeDeletions": -69
+        }
+      ]
+    },
+    {
+      "project": "releng/global-jjb",
+      "branch": "v0.24.x",
+      "id": "Ic466cd74a568e0de2fbb0f3fd75205cd04c1e3f9",
+      "commitNumber": 12584,
+      "subject": "Use --user for tox install instead of virtualenv",
+      "owner": ids["zxiiro"],
+      "url": "https://gerrit.linuxfoundation.org/infra/12584",
+      "commitMessage": "Use --user for tox install instead of virtualenv\n\nAllows us to remove the workaround of installing lftools in\na venv before as the virtualenvs should no longer be conflicting.\n\nChange-Id: Ic466cd74a568e0de2fbb0f3fd75205cd04c1e3f9\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
+      "createdOnDate": 1536867166000,
+      "lastUpdatedDate": 1536885099000,
+      "isOpen": false,
+      "status": "MERGED",
+      "reviewers": [
+        ids["zxiiro"],
+        ids["lf-jenkins"],
+        ids["jeremyphelps"]
+      ],
+      "comments": [
+        {
+          "timestamp": 1536867166000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 1."
+        },
+        {
+          "timestamp": 1536868365000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 2."
+        },
+        {
+          "timestamp": 1536869133000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/759/"
+        },
+        {
+          "timestamp": 1536869301000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/759/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/759/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/759"
+        },
+        {
+          "timestamp": 1536869359000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536869563000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/760/"
+        },
+        {
+          "timestamp": 1536869743000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/760/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/760/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/760"
+        },
+        {
+          "timestamp": 1536870136000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536870243000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/762/"
+        },
+        {
+          "timestamp": 1536870397000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/762/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/762/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/762"
+        },
+        {
+          "timestamp": 1536870522000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536870548000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/763/"
+        },
+        {
+          "timestamp": 1536870693000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/763/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/763/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/763"
+        },
+        {
+          "timestamp": 1536870918000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/764/"
+        },
+        {
+          "timestamp": 1536871047000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/764/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/764/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/764"
+        },
+        {
+          "timestamp": 1536871394000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536871583000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/766/"
+        },
+        {
+          "timestamp": 1536871722000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Code-Review-1\n\nBuild Unstable \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/766/ : UNSTABLE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/766/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/766"
+        },
+        {
+          "timestamp": 1536871928000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536872133000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Code-Review\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/767/"
+        },
+        {
+          "timestamp": 1536872230000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/767/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/767/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/767"
+        },
+        {
+          "timestamp": 1536872276000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 2:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536872325000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 3."
+        },
+        {
+          "timestamp": 1536872432000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/768/"
+        },
+        {
+          "timestamp": 1536872470000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 3:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/769/"
+        },
+        {
+          "timestamp": 1536872522000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/768/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/768/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/768"
+        },
+        {
+          "timestamp": 1536872538000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/769/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/769/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/769"
+        },
+        {
+          "timestamp": 1536872557000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 4."
+        },
+        {
+          "timestamp": 1536872707000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 4:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/770/"
+        },
+        {
+          "timestamp": 1536872783000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 4: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/770/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/770/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/770"
+        },
+        {
+          "timestamp": 1536872884000,
+          "reviewer": ids["zxiiro"],
+          "message": "Patch Set 4:\n\nrecheck"
+        },
+        {
+          "timestamp": 1536873071000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 4: -Verified\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/771/"
+        },
+        {
+          "timestamp": 1536873282000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/771/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/771"
+        },
+        {
+          "timestamp": 1536873403000,
+          "reviewer": ids["jeremyphelps"],
+          "message": "Patch Set 4: Code-Review+2"
+        },
+        {
+          "timestamp": 1536873405000,
+          "reviewer": ids["jeremyphelps"],
+          "message": "Change has been successfully merged by Jeremy Phelps"
+        },
+        {
+          "timestamp": 1536885099000,
+          "reviewer": ids["zxiiro"],
+          "message": "Topic set to lftools-venv"
+        }
+      ],
+      "patchSets": [
+        {
+          "number": 1,
+          "revision": "05a4bcbecb33edadda5e7f62b834905c28118503",
+          "parents": [
+            "0c7c17f769c76574c333b3c08fffe795d44e9db9"
+          ],
+          "ref": "refs/changes/84/12584/1",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536867166000,
+          "author": ids["zxiiro"],
+          "isDraft": true,
+          "kind": "REWORK",
+          "approvals": [],
+          "comments": [],
+          "sizeInsertions": 1,
+          "sizeDeletions": -5
+        },
+        {
+          "number": 2,
+          "revision": "42a5ace9e5a1a502c495815ef1e460f2a1ad6655",
+          "parents": [
+            "0c7c17f769c76574c333b3c08fffe795d44e9db9"
+          ],
+          "ref": "refs/changes/84/12584/2",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536868365000,
+          "author": ids["zxiiro"],
+          "isDraft": false,
+          "kind": "REWORK",
+          "approvals": [
+            {
+              "type": "Verified",
+              "description": "Verified",
+              "value": -1,
+              "grantedOnDate": 1536872522000,
+              "grantedBy": ids["lf-jenkins"]
+            }
+          ],
+          "comments": [],
+          "sizeInsertions": 4,
+          "sizeDeletions": -7
+        },
+        {
+          "number": 3,
+          "revision": "800d9d69a51fbf7d5674c46ad800ca8a1df23e07",
+          "parents": [
+            "0c7c17f769c76574c333b3c08fffe795d44e9db9"
+          ],
+          "ref": "refs/changes/84/12584/3",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536872325000,
+          "author": ids["zxiiro"],
+          "isDraft": false,
+          "kind": "REWORK",
+          "approvals": [
+            {
+              "type": "Verified",
+              "description": "Verified",
+              "value": -1,
+              "grantedOnDate": 1536872538000,
+              "grantedBy": ids["lf-jenkins"]
+            }
+          ],
+          "comments": [],
+          "sizeInsertions": 7,
+          "sizeDeletions": -17
+        },
+        {
+          "number": 4,
+          "revision": "90db9af77b1d31e7c22e6dc181c8b8c6f00b821e",
+          "parents": [
+            "0c7c17f769c76574c333b3c08fffe795d44e9db9"
+          ],
+          "ref": "refs/changes/84/12584/4",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536872557000,
+          "author": ids["zxiiro"],
+          "isDraft": false,
+          "kind": "REWORK",
+          "approvals": [
+            {
+              "type": "Code-Review",
+              "description": "Code-Review",
+              "value": 2,
+              "grantedOnDate": 1536873403000,
+              "grantedBy": ids["jeremyphelps"]
+            },
+            {
+              "type": "SUBM",
+              "description": "",
+              "value": 1,
+              "grantedOnDate": 1536873405000,
+              "grantedBy": ids["jeremyphelps"]
+            },
+            {
+              "type": "Verified",
+              "description": "Verified",
+              "value": 1,
+              "grantedOnDate": 1536873282000,
+              "grantedBy": ids["lf-jenkins"]
+            }
+          ],
+          "comments": [],
+          "sizeInsertions": 7,
+          "sizeDeletions": -17
+        }
+      ]
+    },
+    {
+      "project": "releng/global-jjb",
+      "branch": "master",
+      "id": "I0da9d6bb99a5a0a9666697b27416fa5e5518e316",
+      "commitNumber": 12558,
+      "subject": "Fix package list script to not fail on diff",
+      "owner": ids["zxiiro"],
+      "url": "https://gerrit.linuxfoundation.org/infra/12558",
+      "commitMessage": "Fix package list script to not fail on diff\n\nThe diff command exits 1 if there is a difference between 2 files.\nThis is perfectly valid so ignore the exit code for this command.\n\nChange-Id: I0da9d6bb99a5a0a9666697b27416fa5e5518e316\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
+      "createdOnDate": 1536774646000,
+      "lastUpdatedDate": 1536775978000,
+      "isOpen": false,
+      "status": "MERGED",
+      "reviewers": [
+        ids["agrimberg"],
+        ids["zxiiro"],
+        ids["askb"],
+        ids["jeremyphelps"],
+        ids["lf-jenkins"]
+      ],
+      "comments": [
+        {
+          "timestamp": 1536774646000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 1."
+        },
+        {
+          "timestamp": 1536774712000,
+          "reviewer": ids["zxiiro"],
+          "message": "Assignee added: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e"
+        },
+        {
+          "timestamp": 1536774740000,
+          "reviewer": ids["jeremyphelps"],
+          "message": "Patch Set 1: Code-Review+2"
+        },
+        {
+          "timestamp": 1536774949000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/755/"
+        },
+        {
+          "timestamp": 1536775115000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/755/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/755"
+        },
+        {
+          "timestamp": 1536775127000,
+          "reviewer": ids["zxiiro"],
+          "message": "Change has been successfully merged by Thanh Ha (zxiiro)"
+        },
+        {
+          "timestamp": 1536775477000,
+          "reviewer": ids["askb"],
+          "message": "Patch Set 1:\n\n(1 comment)"
+        },
+        {
+          "timestamp": 1536775759000,
+          "reviewer": ids["agrimberg"],
+          "message": "Patch Set 1:\n\n(1 comment)"
+        },
+        {
+          "timestamp": 1536775978000,
+          "reviewer": ids["askb"],
+          "message": "Patch Set 1: Code-Review+2"
+        }
+      ],
+      "patchSets": [
+        {
+          "number": 1,
+          "revision": "2b3cda5089750601fada2c62cf8d2f5d8050f513",
+          "parents": [
+            "b94a82bd078988fbfb58496cb1ac835d48e5ec6e"
+          ],
+          "ref": "refs/changes/58/12558/1",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536774646000,
+          "author": ids["zxiiro"],
+          "isDraft": false,
+          "kind": "REWORK",
+          "approvals": [
+            {
+              "type": "SUBM",
+              "description": "",
+              "value": 1,
+              "grantedOnDate": 1536775127000,
+              "grantedBy": ids["zxiiro"]
+            },
+            {
+              "type": "Code-Review",
+              "description": "Code-Review",
+              "value": 2,
+              "grantedOnDate": 1536775978000,
+              "grantedBy": ids["askb"]
+            },
+            {
+              "type": "Code-Review",
+              "description": "Code-Review",
+              "value": 2,
+              "grantedOnDate": 1536774740000,
+              "grantedBy": ids["jeremyphelps"]
+            },
+            {
+              "type": "Verified",
+              "description": "Verified",
+              "value": 1,
+              "grantedOnDate": 1536775115000,
+              "grantedBy": ids["lf-jenkins"]
+            }
+          ],
+          "comments": [
+            {
+              "file": "shell/package-listing.sh",
+              "line": 53,
+              "reviewer": ids["askb"],
+              "message": "Does start and end packages guarantee sorted order? if not you should be sort both before passing it to diff.",
+              "patchSetTimestamp": 1536774646000
+            },
+            {
+              "file": "shell/package-listing.sh",
+              "line": 53,
+              "reviewer": ids["agrimberg"],
+              "message": "It\u0027s guaranteed on RPM systems, dpkg (in all my testing) always listed things sorted so it\u0027s not passed to sort.\n\nSee lines 36 - 48. IIRC this script is called twice. Once at the start of the job, and once at the end. It\u0027s designed to be safely used that way.",
+              "patchSetTimestamp": 1536774646000
+            }
+          ],
+          "sizeInsertions": 7,
+          "sizeDeletions": -1
+        }
+      ]
+    },
+    {
+      "project": "releng/global-jjb",
+      "branch": "v0.24.x",
+      "id": "I0da9d6bb99a5a0a9666697b27416fa5e5518e316",
+      "commitNumber": 12559,
+      "subject": "Fix package list script to not fail on diff",
+      "owner": ids["zxiiro"],
+      "url": "https://gerrit.linuxfoundation.org/infra/12559",
+      "commitMessage": "Fix package list script to not fail on diff\n\nThe diff command exits 1 if there is a difference between 2 files.\nThis is perfectly valid so ignore the exit code for this command.\n\nChange-Id: I0da9d6bb99a5a0a9666697b27416fa5e5518e316\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
+      "createdOnDate": 1536774935000,
+      "lastUpdatedDate": 1536775332000,
+      "isOpen": false,
+      "status": "MERGED",
+      "reviewers": [
+        ids["agrimberg"],
+        ids["zxiiro"],
+        ids["jeremyphelps"],
+        ids["lf-jenkins"]
+      ],
+      "comments": [
+        {
+          "timestamp": 1536774935000,
+          "reviewer": ids["zxiiro"],
+          "message": "Uploaded patch set 1."
+        },
+        {
+          "timestamp": 1536774956000,
+          "reviewer": ids["zxiiro"],
+          "message": "Assignee added: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e"
+        },
+        {
+          "timestamp": 1536775106000,
+          "reviewer": ids["jeremyphelps"],
+          "message": "Patch Set 1: Code-Review+2"
+        },
+        {
+          "timestamp": 1536775143000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/756/"
+        },
+        {
+          "timestamp": 1536775237000,
+          "reviewer": ids["agrimberg"],
+          "message": "Patch Set 1: Code-Review+2"
+        },
+        {
+          "timestamp": 1536775322000,
+          "reviewer": ids["lf-jenkins"],
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/756/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/756"
+        },
+        {
+          "timestamp": 1536775332000,
+          "reviewer": ids["zxiiro"],
+          "message": "Change has been successfully merged by Thanh Ha (zxiiro)"
+        }
+      ],
+      "patchSets": [
+        {
+          "number": 1,
+          "revision": "49e53b5efbb33cd87005bc5e9a8559c0c1abf1da",
+          "parents": [
+            "73c1e4ad26a06e40fee8e08aad09ed3831b4cdf6"
+          ],
+          "ref": "refs/changes/59/12559/1",
+          "uploader": ids["zxiiro"],
+          "createdOnDate": 1536774935000,
+          "author": ids["zxiiro"],
+          "isDraft": false,
+          "kind": "REWORK",
+          "approvals": [
+            {
+              "type": "Code-Review",
+              "description": "Code-Review",
+              "value": 2,
+              "grantedOnDate": 1536775237000,
+              "grantedBy": ids["agrimberg"]
+            },
+            {
+              "type": "SUBM",
+              "description": "",
+              "value": 1,
+              "grantedOnDate": 1536775332000,
+              "grantedBy": ids["zxiiro"]
+            },
+            {
+              "type": "Code-Review",
+              "description": "Code-Review",
+              "value": 2,
+              "grantedOnDate": 1536775106000,
+              "grantedBy": ids["jeremyphelps"]
+            },
+            {
+              "type": "Verified",
+              "description": "Verified",
+              "value": 1,
+              "grantedOnDate": 1536775322000,
+              "grantedBy": ids["lf-jenkins"]
+            }
+          ],
+          "comments": [],
+          "sizeInsertions": 7,
+          "sizeDeletions": -1
         }
       ]
     },
@@ -2150,582 +2425,6 @@ userdata['jeremyphelps'] = {
           "sizeDeletions": -6
         }
       ]
-    },
-    {
-      "project": "releng/global-jjb",
-      "branch": "master",
-      "id": "I2229d66f637bd5aab203a3bbf12aa1e677a471a1",
-      "commitNumber": 12122,
-      "subject": "Add Jenkins Sandbox Cleanup job",
-      "owner": ids["zxiiro"],
-      "url": "https://gerrit.linuxfoundation.org/infra/12122",
-      "commitMessage": "Add Jenkins Sandbox Cleanup job\n\nThis cleanup job runs weekly on Saturdays to clear out Sandbox\njobs and views from the system.\n\nThe benefit of this is that it uses the same version of JJB as\nthe other CI jobs whereas the traditional cron job we put in puppet\ndoes not often get updated to match the right version.\n\nIssue: RELENG-1118\nChange-Id: I2229d66f637bd5aab203a3bbf12aa1e677a471a1\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
-      "createdOnDate": 1533414562000,
-      "lastUpdatedDate": 1533859346000,
-      "isOpen": false,
-      "status": "MERGED",
-      "reviewers": [
-        ids["agrimberg"],
-        ids["zxiiro"],
-        ids["shague"],
-        ids["lf-jenkins"],
-        ids["dfarrell07"],
-        ids["jluhrsen"],
-        ids["jeremyphelps"]
-      ],
-      "comments": [
-        {
-          "timestamp": 1533414562000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 1."
-        },
-        {
-          "timestamp": 1533414636000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/293/ (1/2)"
-        },
-        {
-          "timestamp": 1533414684000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/687/ (2/2)"
-        },
-        {
-          "timestamp": 1533414875000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/687/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/687/ )\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/687\n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/293/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-rtd-verify-any/293"
-        },
-        {
-          "timestamp": 1533570613000,
-          "reviewer": ids["agrimberg"],
-          "message": "Patch Set 1:\n\nI\u0027m really on the fence with this change. It only solves 1/2 of the configuration problem. That of the Jenkins jobs. It does nothing for the Nexus side for clearing out the job logs that exist in the sandbox holding area which continues to have to be a cron job."
-        },
-        {
-          "timestamp": 1533574810000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1:\n\n\u003e I\u0027m really on the fence with this change. It only solves 1/2 of the\n \u003e configuration problem. That of the Jenkins jobs. It does nothing\n \u003e for the Nexus side for clearing out the job logs that exist in the\n \u003e sandbox holding area which continues to have to be a cron job.\n\nTo be fair the Nexus side is a completely separate step. Even if we ignore this job. It required modifying 2 separate puppet files. One for Jenkins and one for Nexus. Irrespective of this patch it was still a 2 step process previously too. This reduces the steps to 1 but does bring up a point that we need to document the Nexus part in our infrastructure docs."
-        },
-        {
-          "timestamp": 1533651337000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 2."
-        },
-        {
-          "timestamp": 1533651424000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/294/ (1/2)"
-        },
-        {
-          "timestamp": 1533651444000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/689/ (2/2)"
-        },
-        {
-          "timestamp": 1533651590000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/294/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-rtd-verify-any/294\n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/689/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/689"
-        },
-        {
-          "timestamp": 1533851963000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 2: Code-Review+2"
-        },
-        {
-          "timestamp": 1533859329000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 2: Code-Review+2"
-        },
-        {
-          "timestamp": 1533859346000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Change has been successfully merged by Jeremy Phelps"
-        }
-      ],
-      "patchSets": [
-        {
-          "number": 1,
-          "revision": "7ca8d2677a2b1c8738d676feaa776240e878dc9c",
-          "parents": [
-            "78f0bd978eeadea71fdc31e16de4cc4b8e769b48"
-          ],
-          "ref": "refs/changes/22/12122/1",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1533414562000,
-          "author": ids["zxiiro"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": -1,
-              "grantedOnDate": 1533414875000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 105,
-          "sizeDeletions": 0
-        },
-        {
-          "number": 2,
-          "revision": "1eda455b5c9e28a98441ddd46a61035dd5f60fe6",
-          "parents": [
-            "8a5ed774fd2f4109ff9fe6da4359263dc3a1ab29"
-          ],
-          "ref": "refs/changes/22/12122/2",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1533651337000,
-          "author": ids["zxiiro"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533851963000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533859329000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "SUBM",
-              "description": "",
-              "value": 1,
-              "grantedOnDate": 1533859346000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533651590000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 97,
-          "sizeDeletions": 0
-        }
-      ]
-    },
-    {
-      "project": "releng/global-jjb",
-      "branch": "master",
-      "id": "I0dd4342664251386ddc7eca52df56156105f200d",
-      "commitNumber": 9927,
-      "subject": "Rename maven-release job to maven-stage",
-      "owner": ids["zxiiro"],
-      "url": "https://gerrit.linuxfoundation.org/infra/9927",
-      "commitMessage": "Rename maven-release job to maven-stage\n\nATTENTION: This is a breaking change. The trigger word\n\"build release$\" is changed to \"stage-release$\" to better\nreflect what this job is actually doing.\n\nIn preparation for work on RELENG-425 this change renames the\nmaven-release jobs to maven-stage job to better reflect what the\njob really does.\n\nTrigger keyword was also changed to \"stage-release$\"\n\nIssue: RELENG-425\nChange-Id: I0dd4342664251386ddc7eca52df56156105f200d\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
-      "createdOnDate": 1523479918000,
-      "lastUpdatedDate": 1533858637000,
-      "isOpen": false,
-      "status": "MERGED",
-      "reviewers": [
-        ids["zxiiro"],
-        ids["askb"],
-        ids["jwagantall"],
-        ids["jeremyphelps"],
-        ids["rovarga"],
-        ids["agrimberg"],
-        ids["lf-jenkins"]
-      ],
-      "comments": [
-        {
-          "timestamp": 1523479918000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 1."
-        },
-        {
-          "timestamp": 1523479959000,
-          "reviewer": ids["zxiiro"],
-          "message": "Topic set to RELENG-425"
-        },
-        {
-          "timestamp": 1523481016000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 1: Code-Review+1"
-        },
-        {
-          "timestamp": 1523857395000,
-          "reviewer": ids["askb"],
-          "message": "Patch Set 1: Code-Review+1"
-        },
-        {
-          "timestamp": 1524189687000,
-          "reviewer": ids["jwagantall"],
-          "message": "Patch Set 1: Code-Review-1\n\n(2 comments)"
-        },
-        {
-          "timestamp": 1524189746000,
-          "reviewer": ids["jwagantall"],
-          "message": "Patch Set 1:\n\nMy documentation comment is more optional if you guys agree.. but just the correction in lf-maven-jobs needs to be done."
-        },
-        {
-          "timestamp": 1524239560000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1:\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1524243249000,
-          "reviewer": ids["jwagantall"],
-          "message": "Patch Set 1:\n\n(1 comment)"
-        },
-        {
-          "timestamp": 1524665329000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1:\n\n(2 comments)"
-        },
-        {
-          "timestamp": 1524665342000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 2."
-        },
-        {
-          "timestamp": 1525290278000,
-          "reviewer": ids["jwagantall"],
-          "message": "Patch Set 2: Code-Review+2"
-        },
-        {
-          "timestamp": 1533220941000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 2:\n\n\u003e (2 comments)\n\nAre we still planning on this?  I think it\u0027s a good idea."
-        },
-        {
-          "timestamp": 1533222674000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 2:\n\nYep. I was holding this off for a valid release job but maybe we should just go ahead and release this. I\u0027ll rebase this and resubmit."
-        },
-        {
-          "timestamp": 1533222763000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 3: Patch Set 2 was rebased."
-        },
-        {
-          "timestamp": 1533222832000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 3: Code-Review+1\n\nOthers to review since it is a breaking change."
-        },
-        {
-          "timestamp": 1533222898000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 3:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/292/ (1/2)"
-        },
-        {
-          "timestamp": 1533222953000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 3:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/686/ (2/2)"
-        },
-        {
-          "timestamp": 1533223027000,
-          "reviewer": ids["agrimberg"],
-          "message": "Patch Set 3: Code-Review+1\n\nI\u0027m fine with this. The only reason we don\u0027t need to go bumping the major for global-jjb is due to us not having actually released a 1.x series yet!\n\nI\u0027m thinking we probably should do so in the not so distant future"
-        },
-        {
-          "timestamp": 1533223120000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-rtd-verify-any/292/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-rtd-verify-any/292\n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/686/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/686"
-        },
-        {
-          "timestamp": 1533519608000,
-          "reviewer": ids["askb"],
-          "message": "Patch Set 3: Code-Review+1"
-        },
-        {
-          "timestamp": 1533851915000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 3: Code-Review+2"
-        },
-        {
-          "timestamp": 1533851933000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 3:\n\nI\u0027d like to land this for the next global-jjb release."
-        },
-        {
-          "timestamp": 1533858619000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 3: Code-Review+2\n\nJust need to be sure to include this is a breaking change."
-        },
-        {
-          "timestamp": 1533858637000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Change has been successfully merged by Jeremy Phelps"
-        }
-      ],
-      "patchSets": [
-        {
-          "number": 1,
-          "revision": "a690e8897a20db81b31341e74b6ccea3e0be6a75",
-          "parents": [
-            "42bccf5db0da3fd0b900a3c508988d992b1fecc2"
-          ],
-          "ref": "refs/changes/27/9927/1",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1523479918000,
-          "author": ids["zxiiro"],
-          "isDraft": true,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 1,
-              "grantedOnDate": 1523857395000,
-              "grantedBy": ids["askb"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": -1,
-              "grantedOnDate": 1524189687000,
-              "grantedBy": ids["jwagantall"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 1,
-              "grantedOnDate": 1523481016000,
-              "grantedBy": ids["jeremyphelps"]
-            }
-          ],
-          "comments": [
-            {
-              "file": "docs/jjb/lf-maven-jobs.rst",
-              "line": 264,
-              "reviewer": ids["jwagantall"],
-              "message": "Can we add to this documentation that the repo created has the format \"autorelase-####\"? Just to be more specific.",
-              "patchSetTimestamp": 1523479918000
-            },
-            {
-              "file": "docs/jjb/lf-maven-jobs.rst",
-              "line": 264,
-              "reviewer": ids["zxiiro"],
-              "message": "In odl every project has a different repo name.\n\nautorelease-#### is for the autorelease project.\nodlparent-#### is for the odlparent project.\nyangtools-#### is for the yangtools project.\n\netc...\n\nI can add details that it will be in the format [a-z]+-[0-9][0-9][0-9][0-9].",
-              "patchSetTimestamp": 1523479918000
-            },
-            {
-              "file": "docs/jjb/lf-maven-jobs.rst",
-              "line": 264,
-              "reviewer": ids["jwagantall"],
-              "message": "Oh, I didn\u0027t realized that was the case for different projects. Yes please.. let\u0027s add the expected format",
-              "patchSetTimestamp": 1523479918000
-            },
-            {
-              "file": "docs/jjb/lf-maven-jobs.rst",
-              "line": 264,
-              "reviewer": ids["zxiiro"],
-              "message": "Done",
-              "patchSetTimestamp": 1523479918000
-            },
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 682,
-              "reviewer": ids["jwagantall"],
-              "message": "lf_maven_stage",
-              "patchSetTimestamp": 1523479918000
-            },
-            {
-              "file": "jjb/lf-maven-jobs.yaml",
-              "line": 682,
-              "reviewer": ids["zxiiro"],
-              "message": "Done",
-              "patchSetTimestamp": 1523479918000
-            }
-          ],
-          "sizeInsertions": 22,
-          "sizeDeletions": -22
-        },
-        {
-          "number": 2,
-          "revision": "4e1a2815be2952983293f6867e5231eed91e463c",
-          "parents": [
-            "bfe91be03d516a56adb74abd1e16c50b86c27c6e"
-          ],
-          "ref": "refs/changes/27/9927/2",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1524665342000,
-          "author": ids["zxiiro"],
-          "isDraft": true,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1525290278000,
-              "grantedBy": ids["jwagantall"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 28,
-          "sizeDeletions": -25
-        },
-        {
-          "number": 3,
-          "revision": "32363c61de3ae1fa4bf31fe17327bc153da3e897",
-          "parents": [
-            "356637f0d3d4091aecde9889c1bc9ec758a33336"
-          ],
-          "ref": "refs/changes/27/9927/3",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1533222763000,
-          "author": ids["zxiiro"],
-          "isDraft": false,
-          "kind": "TRIVIAL_REBASE",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 1,
-              "grantedOnDate": 1533223027000,
-              "grantedBy": ids["agrimberg"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533851915000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 1,
-              "grantedOnDate": 1533519608000,
-              "grantedBy": ids["askb"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533858619000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "SUBM",
-              "description": "",
-              "value": 1,
-              "grantedOnDate": 1533858637000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533223120000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 28,
-          "sizeDeletions": -25
-        }
-      ]
-    },
-    {
-      "project": "releng/global-jjb",
-      "branch": "master",
-      "id": "I1a181776c6d0eef1b857ede9099d3ebb8e3ba98d",
-      "commitNumber": 12165,
-      "subject": "Test with latest JJB and supported JJB",
-      "owner": ids["zxiiro"],
-      "url": "https://gerrit.linuxfoundation.org/infra/12165",
-      "commitMessage": "Test with latest JJB and supported JJB\n\nTest global-jjb with both the latest version of JJB as well as the\nglobal-jjb supported version of JJB.\n\nAlso include a script to ensure that jjb/lf-ci-jobs.yaml and tox.ini\ndefine the same supported versions of JJB.\n\nChange-Id: I1a181776c6d0eef1b857ede9099d3ebb8e3ba98d\nSigned-off-by: Thanh Ha \u003cthanh.ha@linuxfoundation.org\u003e\n",
-      "createdOnDate": 1533770936000,
-      "lastUpdatedDate": 1533858546000,
-      "isOpen": false,
-      "status": "MERGED",
-      "reviewers": [
-        ids["zxiiro"],
-        ids["jeremyphelps"],
-        ids["lf-jenkins"]
-      ],
-      "comments": [
-        {
-          "timestamp": 1533770936000,
-          "reviewer": ids["zxiiro"],
-          "message": "Uploaded patch set 1."
-        },
-        {
-          "timestamp": 1533771028000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/691/"
-        },
-        {
-          "timestamp": 1533771184000,
-          "reviewer": ids["lf-jenkins"],
-          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/691/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/691"
-        },
-        {
-          "timestamp": 1533851946000,
-          "reviewer": ids["zxiiro"],
-          "message": "Patch Set 1: Code-Review+2"
-        },
-        {
-          "timestamp": 1533858544000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Patch Set 1: Code-Review+2"
-        },
-        {
-          "timestamp": 1533858546000,
-          "reviewer": ids["jeremyphelps"],
-          "message": "Change has been successfully merged by Jeremy Phelps"
-        }
-      ],
-      "patchSets": [
-        {
-          "number": 1,
-          "revision": "775ab31f7fc1d6ce40c3057f5a51ced9cb191267",
-          "parents": [
-            "3ae312fbcced7c547bbe98a5692a6d2dcfc17558"
-          ],
-          "ref": "refs/changes/65/12165/1",
-          "uploader": ids["zxiiro"],
-          "createdOnDate": 1533770936000,
-          "author": ids["zxiiro"],
-          "isDraft": false,
-          "kind": "REWORK",
-          "approvals": [
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533851946000,
-              "grantedBy": ids["zxiiro"]
-            },
-            {
-              "type": "Code-Review",
-              "description": "Code-Review",
-              "value": 2,
-              "grantedOnDate": 1533858544000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "SUBM",
-              "description": "",
-              "value": 1,
-              "grantedOnDate": 1533858546000,
-              "grantedBy": ids["jeremyphelps"]
-            },
-            {
-              "type": "Verified",
-              "description": "Verified",
-              "value": 1,
-              "grantedOnDate": 1533771184000,
-              "grantedBy": ids["lf-jenkins"]
-            }
-          ],
-          "comments": [],
-          "sizeInsertions": 60,
-          "sizeDeletions": -2
-        }
-      ]
     }
   ],
   "reviewRequestors": [
@@ -2733,10 +2432,10 @@ userdata['jeremyphelps'] = {
       "identity": ids["zxiiro"],
       "approvalData": {
         "addedAsReviewerCount": 11,
-        "approvalCount": 18,
+        "approvalCount": 15,
         "commentCount": 3,
         "approvals": {
-          "1": 8,
+          "1": 5,
           "2": 10
         }
       }
@@ -3357,234 +3056,21 @@ userdata['jeremyphelps'] = {
       ]
     }
   ],
-  "commentsReceived": [
-    {
-      "commit": {
-        "project": "releng/global-jjb",
-        "branch": "master",
-        "id": "I5d67b8a70a4b2d5dc5e7c4028ba62c21cd7a7d1e",
-        "commitNumber": 12180,
-        "subject": "Make GHPRB trigger on comment only",
-        "owner": ids["jeremyphelps"],
-        "url": "https://gerrit.linuxfoundation.org/infra/12180",
-        "commitMessage": "Make GHPRB trigger on comment only\n\nIssue: RELENG-1132\nChange-Id: I5d67b8a70a4b2d5dc5e7c4028ba62c21cd7a7d1e\nSigned-off-by: Jeremy Phelps \u003cjphelps@linuxfoundation.org\u003e\n",
-        "createdOnDate": 1533839199000,
-        "lastUpdatedDate": 1533858628000,
-        "isOpen": false,
-        "status": "MERGED",
-        "reviewers": [
-          ids["agrimberg"],
-          ids["zxiiro"],
-          ids["jeremyphelps"],
-          ids["lf-jenkins"]
-        ],
-        "comments": [
-          {
-            "timestamp": 1533839199000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Uploaded patch set 1."
-          },
-          {
-            "timestamp": 1533839283000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/692/"
-          },
-          {
-            "timestamp": 1533839461000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/692/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/692"
-          },
-          {
-            "timestamp": 1533839725000,
-            "reviewer": ids["zxiiro"],
-            "message": "Patch Set 1: Code-Review-1\n\n(1 comment)"
-          },
-          {
-            "timestamp": 1533858092000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 1:\n\n(1 comment)"
-          },
-          {
-            "timestamp": 1533858141000,
-            "reviewer": ids["zxiiro"],
-            "message": "Patch Set 1:\n\n(1 comment)"
-          },
-          {
-            "timestamp": 1533858177000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Patch Set 1:\n\n(1 comment)"
-          },
-          {
-            "timestamp": 1533858357000,
-            "reviewer": ids["jeremyphelps"],
-            "message": "Uploaded patch set 2."
-          },
-          {
-            "timestamp": 1533858372000,
-            "reviewer": ids["zxiiro"],
-            "message": "Patch Set 2: Code-Review+2"
-          },
-          {
-            "timestamp": 1533858436000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2:\n\nBuild Started https://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/694/"
-          },
-          {
-            "timestamp": 1533858605000,
-            "reviewer": ids["lf-jenkins"],
-            "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-global-jjb-tox-verify-any/694/ : SUCCESS\n\nLogs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/lf-infra-global-jjb-tox-verify-any/694"
-          },
-          {
-            "timestamp": 1533858628000,
-            "reviewer": ids["zxiiro"],
-            "message": "Change has been successfully merged by Thanh Ha (zxiiro)"
-          }
-        ],
-        "patchSets": [
-          {
-            "number": 1,
-            "revision": "1ad13a6c96d4b82b74d194621055fa9ee371f56b",
-            "parents": [
-              "3ae312fbcced7c547bbe98a5692a6d2dcfc17558"
-            ],
-            "ref": "refs/changes/80/12180/1",
-            "uploader": ids["jeremyphelps"],
-            "createdOnDate": 1533839199000,
-            "author": ids["jeremyphelps"],
-            "isDraft": false,
-            "kind": "REWORK",
-            "approvals": [
-              {
-                "type": "Code-Review",
-                "description": "Code-Review",
-                "value": -1,
-                "grantedOnDate": 1533839725000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "Verified",
-                "description": "Verified",
-                "value": 1,
-                "grantedOnDate": 1533839461000,
-                "grantedBy": ids["lf-jenkins"]
-              }
-            ],
-            "comments": [
-              {
-                "file": "jjb/lf-maven-jobs.yaml",
-                "line": 291,
-                "reviewer": ids["zxiiro"],
-                "message": "Maybe we just need to change this to \"true\".\n\nThere\u0027s a bunch of other cases where we also allow trigger phrase builds too.",
-                "patchSetTimestamp": 1533839199000
-              },
-              {
-                "file": "jjb/lf-maven-jobs.yaml",
-                "line": 291,
-                "reviewer": ids["jeremyphelps"],
-                "message": "Hmm that\u0027s not a bad idea, although for this particular job, will a committer ever need to run CLM?",
-                "patchSetTimestamp": 1533839199000
-              },
-              {
-                "file": "jjb/lf-maven-jobs.yaml",
-                "line": 291,
-                "reviewer": ids["zxiiro"],
-                "message": "Yes, OpenDaylight committers often run it manually around release time.",
-                "patchSetTimestamp": 1533839199000
-              },
-              {
-                "file": "jjb/lf-maven-jobs.yaml",
-                "line": 291,
-                "reviewer": ids["jeremyphelps"],
-                "message": "got it..fix inbound",
-                "patchSetTimestamp": 1533839199000
-              }
-            ],
-            "sizeInsertions": 0,
-            "sizeDeletions": -12
-          },
-          {
-            "number": 2,
-            "revision": "9643e91a8afa968c8b9efdcdca04fe8b356fd4e3",
-            "parents": [
-              "3ae312fbcced7c547bbe98a5692a6d2dcfc17558"
-            ],
-            "ref": "refs/changes/80/12180/2",
-            "uploader": ids["jeremyphelps"],
-            "createdOnDate": 1533858357000,
-            "author": ids["jeremyphelps"],
-            "isDraft": false,
-            "kind": "REWORK",
-            "approvals": [
-              {
-                "type": "Code-Review",
-                "description": "Code-Review",
-                "value": 2,
-                "grantedOnDate": 1533858372000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "SUBM",
-                "description": "",
-                "value": 1,
-                "grantedOnDate": 1533858628000,
-                "grantedBy": ids["zxiiro"]
-              },
-              {
-                "type": "Verified",
-                "description": "Verified",
-                "value": 1,
-                "grantedOnDate": 1533858605000,
-                "grantedBy": ids["lf-jenkins"]
-              }
-            ],
-            "comments": [],
-            "sizeInsertions": 1,
-            "sizeDeletions": -1
-          }
-        ]
-      },
-      "commentsByUser": [
-        {
-          "file": "jjb/lf-maven-jobs.yaml",
-          "line": 291,
-          "reviewer": ids["zxiiro"],
-          "message": "Maybe we just need to change this to \"true\".\n\nThere\u0027s a bunch of other cases where we also allow trigger phrase builds too.",
-          "patchSetTimestamp": 1533839199000
-        },
-        {
-          "file": "jjb/lf-maven-jobs.yaml",
-          "line": 291,
-          "reviewer": ids["zxiiro"],
-          "message": "Yes, OpenDaylight committers often run it manually around release time.",
-          "patchSetTimestamp": 1533839199000
-        }
-      ]
-    }
-  ],
+  "commentsReceived": [],
   "reviewersForOwnCommits": [
     {
       "identity": ids["zxiiro"],
       "approvalData": {
-        "addedAsReviewerCount": 3,
-        "approvalCount": 4,
-        "commentCount": 2,
+        "addedAsReviewerCount": 1,
+        "approvalCount": 1,
+        "commentCount": 0,
         "approvals": {
-          "-1": 1,
-          "2": 3
+          "2": 1
         }
       }
     },
     {
       "identity": ids["lf-jenkins"],
-      "approvalData": {
-        "addedAsReviewerCount": 3,
-        "approvalCount": 0,
-        "commentCount": 0,
-        "approvals": {}
-      }
-    },
-    {
-      "identity": ids["agrimberg"],
       "approvalData": {
         "addedAsReviewerCount": 1,
         "approvalCount": 0,
@@ -3608,10 +3094,10 @@ userdata['jeremyphelps'] = {
           }
         }
       ],
-      "commitCountForUser": 3
+      "commitCountForUser": 1
     }
   },
-  "averageTimeInCodeReview": 9004000,
+  "averageTimeInCodeReview": 2250000,
   "abandonedCommitCount": 0,
   "projects": [
     {
@@ -3628,7 +3114,7 @@ userdata['jeremyphelps'] = {
           }
         }
       ],
-      "commitCountForUser": 3
+      "commitCountForUser": 1
     }
   ],
   "selfReviewedCommitCount": 0,

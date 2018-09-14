@@ -4,11 +4,12 @@ var datasetOverview = {
     "gerrit_week"
   ],
   "branchList": [
-    "master"
+    "master",
+    "v0.24.x"
   ],
-  "fromDate": 1536166606000,
-  "toDate": 1536366483000,
-  "generatedDate": 1536370737672,
+  "fromDate": 1536345300000,
+  "toDate": 1536940196000,
+  "generatedDate": 1536940343149,
   "hashCode": "261080991",
   "gerritVersion": {
     "major": 2,

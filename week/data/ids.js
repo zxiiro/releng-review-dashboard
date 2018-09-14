@@ -1,9 +1,9 @@
 var ids = {
-  "zxiiro": {
-    "identifier": "zxiiro",
-    "name": "Thanh Ha (zxiiro)",
-    "email": "thanh.ha@linuxfoundation.org",
-    "username": "zxiiro"
+  "agrimberg": {
+    "identifier": "agrimberg",
+    "name": "Andrew Grimberg",
+    "email": "agrimberg@linuxfoundation.org",
+    "username": "agrimberg"
   },
   "lf-jenkins": {
     "identifier": "lf-jenkins",
@@ -11,17 +11,35 @@ var ids = {
     "email": "releng+lf-jenkins@linuxfoundation.org",
     "username": "lf-jenkins"
   },
-  "agrimberg": {
-    "identifier": "agrimberg",
-    "name": "Andrew Grimberg",
-    "email": "agrimberg@linuxfoundation.org",
-    "username": "agrimberg"
+  "zxiiro": {
+    "identifier": "zxiiro",
+    "name": "Thanh Ha (zxiiro)",
+    "email": "thanh.ha@linuxfoundation.org",
+    "username": "zxiiro"
   },
-  "ecelgp": {
-    "identifier": "ecelgp",
-    "name": "Luis Gomez",
-    "email": "ecelgp@gmail.com",
-    "username": "ecelgp"
+  "agardner": {
+    "identifier": "agardner",
+    "name": "Aric Gardner",
+    "email": "agardner@linuxfoundation.org",
+    "username": "agardner"
+  },
+  "askb": {
+    "identifier": "askb",
+    "name": "Anil Belur",
+    "email": "abelur@linuxfoundation.org",
+    "username": "askb"
+  },
+  "bramwelt": {
+    "identifier": "bramwelt",
+    "name": "Trevor Bramwell",
+    "email": "tbramwell@linuxfoundation.org",
+    "username": "bramwelt"
+  },
+  "eball": {
+    "identifier": "eball",
+    "name": "Eric Ball",
+    "email": "eball@linuxfoundation.org",
+    "username": "eball"
   },
   "jwagantall": {
     "identifier": "jwagantall",
@@ -29,16 +47,10 @@ var ids = {
     "email": "jwagantall@linuxfoundation.org",
     "username": "jwagantall"
   },
-  "jluhrsen": {
-    "identifier": "jluhrsen",
-    "name": "Jamo Luhrsen",
-    "email": "jluhrsen@redhat.com",
-    "username": "jluhrsen"
-  },
-  "shague": {
-    "identifier": "shague",
-    "name": "Sam Hague",
-    "email": "shague@redhat.com",
-    "username": "shague"
+  "jeremyphelps": {
+    "identifier": "jeremyphelps",
+    "name": "Jeremy Phelps",
+    "email": "jphelps@linuxfoundation.org",
+    "username": "jeremyphelps"
   }
 };

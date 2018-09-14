@@ -71,11 +71,11 @@ var ids = {
     "email": "nite@hq.sk",
     "username": "rovarga"
   },
-  "dfarrell07": {
-    "identifier": "dfarrell07",
-    "name": "Daniel Farrell",
-    "email": "dfarrell07@gmail.com",
-    "username": "dfarrell07"
+  "eball": {
+    "identifier": "eball",
+    "name": "Eric Ball",
+    "email": "eball@linuxfoundation.org",
+    "username": "eball"
   },
   "jwagantall": {
     "identifier": "jwagantall",

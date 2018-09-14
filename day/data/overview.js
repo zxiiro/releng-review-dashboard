@@ -1,29 +1,88 @@
 var overviewUserdata = [
   {
+    "identifier": "askb",
+    "identity": ids["askb"],
+    "reviewCountPlus2": 1,
+    "reviewCountPlus1": 1,
+    "reviewCountMinus1": 0,
+    "reviewCountMinus2": 0,
+    "allCommentsWritten": 0,
+    "allCommentsReceived": 0,
+    "commitCount": 0,
+    "averageTimeInCodeReview": 0,
+    "receivedCommentRatio": 0.0,
+    "reviewCommentRatio": 0.0,
+    "addedAsReviewerToCount": 1,
+    "selfReviewedCommitCount": 0,
+    "abandonedCommitCount": 0,
+    "firstActiveDate": 1536854160000,
+    "lastActiveDate": 1536854184000,
+    "myReviewerList": []
+  },
+  {
     "identifier": "agrimberg",
     "identity": ids["agrimberg"],
-    "reviewCountPlus2": 5,
-    "reviewCountPlus1": 3,
-    "reviewCountMinus1": 0,
+    "reviewCountPlus2": 7,
+    "reviewCountPlus1": 5,
+    "reviewCountMinus1": 2,
     "reviewCountMinus2": 0,
-    "allCommentsWritten": 0,
+    "allCommentsWritten": 6,
     "allCommentsReceived": 0,
     "commitCount": 0,
     "averageTimeInCodeReview": 0,
     "receivedCommentRatio": 0.0,
-    "reviewCommentRatio": 0.0,
-    "addedAsReviewerToCount": 6,
+    "reviewCommentRatio": 0.85714287,
+    "addedAsReviewerToCount": 7,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
-    "firstActiveDate": 1536246342000,
-    "lastActiveDate": 1536341142000,
+    "firstActiveDate": 1536634200000,
+    "lastActiveDate": 1536940196000,
     "myReviewerList": []
   },
   {
-    "identifier": "ecelgp",
-    "identity": ids["ecelgp"],
-    "reviewCountPlus2": 0,
-    "reviewCountPlus1": 0,
+    "identifier": "eball",
+    "identity": ids["eball"],
+    "reviewCountPlus2": 1,
+    "reviewCountPlus1": 1,
+    "reviewCountMinus1": 0,
+    "reviewCountMinus2": 0,
+    "allCommentsWritten": 0,
+    "allCommentsReceived": 0,
+    "commitCount": 1,
+    "averageTimeInCodeReview": 0,
+    "receivedCommentRatio": 0.0,
+    "reviewCommentRatio": 0.0,
+    "addedAsReviewerToCount": 1,
+    "selfReviewedCommitCount": 0,
+    "abandonedCommitCount": 0,
+    "firstActiveDate": 1536862686000,
+    "lastActiveDate": 1536884284000,
+    "myReviewerList": [
+      {
+        "identity": ids["lf-jenkins"],
+        "reviewData": {
+          "addedAsReviewerCount": 1,
+          "approvalCount": 0,
+          "commentCount": 0,
+          "approvals": {}
+        }
+      },
+      {
+        "identity": ids["zxiiro"],
+        "reviewData": {
+          "addedAsReviewerCount": 1,
+          "approvalCount": 0,
+          "commentCount": 0,
+          "approvals": {}
+        }
+      }
+    ]
+  },
+  {
+    "identifier": "jeremyphelps",
+    "identity": ids["jeremyphelps"],
+    "reviewCountPlus2": 1,
+    "reviewCountPlus1": 1,
     "reviewCountMinus1": 0,
     "reviewCountMinus2": 0,
     "allCommentsWritten": 0,
@@ -35,56 +94,36 @@ var overviewUserdata = [
     "addedAsReviewerToCount": 1,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
-    "firstActiveDate": 9223372036854775807,
-    "lastActiveDate": 0,
-    "myReviewerList": []
-  },
-  {
-    "identifier": "jluhrsen",
-    "identity": ids["jluhrsen"],
-    "reviewCountPlus2": 0,
-    "reviewCountPlus1": 0,
-    "reviewCountMinus1": 0,
-    "reviewCountMinus2": 0,
-    "allCommentsWritten": 0,
-    "allCommentsReceived": 0,
-    "commitCount": 0,
-    "averageTimeInCodeReview": 0,
-    "receivedCommentRatio": 0.0,
-    "reviewCommentRatio": 0.0,
-    "addedAsReviewerToCount": 1,
-    "selfReviewedCommitCount": 0,
-    "abandonedCommitCount": 0,
-    "firstActiveDate": 9223372036854775807,
-    "lastActiveDate": 0,
+    "firstActiveDate": 1536873403000,
+    "lastActiveDate": 1536873405000,
     "myReviewerList": []
   },
   {
     "identifier": "jwagantall",
     "identity": ids["jwagantall"],
-    "reviewCountPlus2": 3,
-    "reviewCountPlus1": 3,
+    "reviewCountPlus2": 11,
+    "reviewCountPlus1": 10,
     "reviewCountMinus1": 0,
     "reviewCountMinus2": 0,
-    "allCommentsWritten": 3,
+    "allCommentsWritten": 0,
     "allCommentsReceived": 0,
     "commitCount": 0,
     "averageTimeInCodeReview": 0,
     "receivedCommentRatio": 0.0,
-    "reviewCommentRatio": 0.75,
-    "addedAsReviewerToCount": 4,
+    "reviewCommentRatio": 0.0,
+    "addedAsReviewerToCount": 11,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
-    "firstActiveDate": 1536345153000,
-    "lastActiveDate": 1536366483000,
+    "firstActiveDate": 1536719950000,
+    "lastActiveDate": 1536891950000,
     "myReviewerList": []
   },
   {
     "identifier": "lf-jenkins",
     "identity": ids["lf-jenkins"],
     "reviewCountPlus2": 0,
-    "reviewCountPlus1": 21,
-    "reviewCountMinus1": 12,
+    "reviewCountPlus1": 43,
+    "reviewCountMinus1": 18,
     "reviewCountMinus2": 0,
     "allCommentsWritten": 0,
     "allCommentsReceived": 0,
@@ -92,31 +131,31 @@ var overviewUserdata = [
     "averageTimeInCodeReview": 0,
     "receivedCommentRatio": 0.0,
     "reviewCommentRatio": 0.0,
-    "addedAsReviewerToCount": 14,
+    "addedAsReviewerToCount": 20,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
-    "firstActiveDate": 1535071242000,
-    "lastActiveDate": 1536363143000,
+    "firstActiveDate": 1536436858000,
+    "lastActiveDate": 1536940146000,
     "myReviewerList": []
   },
   {
-    "identifier": "shague",
-    "identity": ids["shague"],
-    "reviewCountPlus2": 5,
-    "reviewCountPlus1": 5,
-    "reviewCountMinus1": 0,
+    "identifier": "bramwelt",
+    "identity": ids["bramwelt"],
+    "reviewCountPlus2": 0,
+    "reviewCountPlus1": 0,
+    "reviewCountMinus1": 1,
     "reviewCountMinus2": 0,
-    "allCommentsWritten": 0,
+    "allCommentsWritten": 5,
     "allCommentsReceived": 0,
     "commitCount": 0,
     "averageTimeInCodeReview": 0,
     "receivedCommentRatio": 0.0,
-    "reviewCommentRatio": 0.0,
-    "addedAsReviewerToCount": 5,
+    "reviewCommentRatio": 5.0,
+    "addedAsReviewerToCount": 1,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
-    "firstActiveDate": 1536245533000,
-    "lastActiveDate": 1536245697000,
+    "firstActiveDate": 1536616243000,
+    "lastActiveDate": 1536779063000,
     "myReviewerList": []
   },
   {
@@ -127,75 +166,94 @@ var overviewUserdata = [
     "reviewCountMinus1": 0,
     "reviewCountMinus2": 0,
     "allCommentsWritten": 0,
-    "allCommentsReceived": 3,
-    "commitCount": 16,
-    "averageTimeInCodeReview": 550822543,
-    "receivedCommentRatio": 0.1875,
+    "allCommentsReceived": 11,
+    "commitCount": 19,
+    "averageTimeInCodeReview": 169221073,
+    "receivedCommentRatio": 0.57894737,
     "reviewCommentRatio": 0.0,
-    "addedAsReviewerToCount": 0,
+    "addedAsReviewerToCount": 1,
     "selfReviewedCommitCount": 0,
     "abandonedCommitCount": 0,
     "firstActiveDate": 1534558526000,
-    "lastActiveDate": 1536366483000,
+    "lastActiveDate": 1536940196000,
     "myReviewerList": [
       {
         "identity": ids["lf-jenkins"],
         "reviewData": {
-          "addedAsReviewerCount": 14,
-          "approvalCount": 0,
-          "commentCount": 0,
-          "approvals": {}
-        }
-      },
-      {
-        "identity": ids["agrimberg"],
-        "reviewData": {
-          "addedAsReviewerCount": 6,
-          "approvalCount": 5,
+          "addedAsReviewerCount": 19,
+          "approvalCount": 1,
           "commentCount": 0,
           "approvals": {
-            "2": 5
-          }
-        }
-      },
-      {
-        "identity": ids["shague"],
-        "reviewData": {
-          "addedAsReviewerCount": 5,
-          "approvalCount": 5,
-          "commentCount": 0,
-          "approvals": {
-            "2": 5
+            "-1": 1
           }
         }
       },
       {
         "identity": ids["jwagantall"],
         "reviewData": {
-          "addedAsReviewerCount": 4,
-          "approvalCount": 3,
-          "commentCount": 3,
+          "addedAsReviewerCount": 11,
+          "approvalCount": 11,
+          "commentCount": 0,
           "approvals": {
-            "2": 3
+            "2": 11
           }
         }
       },
       {
-        "identity": ids["ecelgp"],
+        "identity": ids["agrimberg"],
         "reviewData": {
-          "addedAsReviewerCount": 1,
-          "approvalCount": 0,
-          "commentCount": 0,
-          "approvals": {}
+          "addedAsReviewerCount": 7,
+          "approvalCount": 10,
+          "commentCount": 6,
+          "approvals": {
+            "-1": 2,
+            "1": 1,
+            "2": 7
+          }
         }
       },
       {
-        "identity": ids["jluhrsen"],
+        "identity": ids["askb"],
         "reviewData": {
           "addedAsReviewerCount": 1,
-          "approvalCount": 0,
+          "approvalCount": 1,
           "commentCount": 0,
-          "approvals": {}
+          "approvals": {
+            "2": 1
+          }
+        }
+      },
+      {
+        "identity": ids["eball"],
+        "reviewData": {
+          "addedAsReviewerCount": 1,
+          "approvalCount": 1,
+          "commentCount": 0,
+          "approvals": {
+            "2": 1
+          }
+        }
+      },
+      {
+        "identity": ids["jeremyphelps"],
+        "reviewData": {
+          "addedAsReviewerCount": 1,
+          "approvalCount": 1,
+          "commentCount": 0,
+          "approvals": {
+            "2": 1
+          }
+        }
+      },
+      {
+        "identity": ids["bramwelt"],
+        "reviewData": {
+          "addedAsReviewerCount": 1,
+          "approvalCount": 1,
+          "commentCount": 5,
+          "approvals": {
+            "-1": 1
+          }
         }
       }
     ]
